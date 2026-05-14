@@ -1,23 +1,41 @@
-Página web hecha mediante boostrap, ChatGPT y el repositorio de github del Docente Carlos Carrascal:  https://github.com/cacarrascal/TallerB-sicoBootstrap#validaciones-del-formulario
+# Mi Página Bootstrap
 
-Elementos tenidos en cuenta
+Página web realizada con **Bootstrap 5**, como taller práctico para aplicar componentes del framework: navegación, tarjetas, formularios, sistema grid, tablas, alertas y personalización de estilos.
 
-1. Navbar
+## Estructura del proyecto
 
-2. Carousel
+```
+web/
+├── index.html           # Página principal
+├── css/
+│   └── style.css        # Estilos personalizados
+├── js/
+│   └── main.js          # Validación de formulario y smooth scroll
+├── img/                 # Imágenes locales
+├── assets/
+│   └── docs/            # Documentos (PDF, etc.)
+└── README.md
+```
 
-3. Tarjetas
+## Componentes incluidos
 
-4. Alertas
+1. Navbar responsive con logo y menú colapsable
+2. Sección de bienvenida con fondo degradado
+3. Tarjetas de productos con efecto hover
+4. Formulario de contacto con validación (nombre, email, teléfono, mensaje)
+5. Sistema grid de 2 y 3 columnas
+6. Botones con variantes de Bootstrap
+7. Alertas interactivas
+8. Tabla de datos responsiva
+9. Personalización de colores, tipografía y espaciado
 
-5. Tabla
+## Tecnologías
 
-6. Formulario de contacto 
+- HTML5 semántico
+- Bootstrap 5.3.2 (CDN)
+- CSS3 personalizado
+- JavaScript vanilla
 
-7. Botones
+## Autor
 
-8. Sistema Grid
-
-Dificultades durante la realización:
-
-En un principio el problema se presento al querer añadir archivos de imagenes al proyecto dado que estas tenían que tener la extensión correcta, y posteriormente el cumplimiento de las validaciones del formulario, sin embargo el proyecto se pudo llevar a cabo.
+Proyecto inspirado en el taller de [Carlos Carrascal](https://github.com/cacarrascal/TallerB-sicoBootstrap).
